@@ -45,5 +45,36 @@
 ### ⚙️ Setup
 
 1️⃣ Clone this repository  
-```bash
+
 git clone https://github.com/YOUR-USERNAME/Store-Billing-System.git
+File → Project Structure → Modules → Dependencies → + Add JAR
+Open src → Main.java → Run
+📍 Project Purpose
+
+Designed as a Semester DBMS + Java Project focusing on:
+
+JDBC connection handling
+
+Menu-driven system
+
+Database persistence
+
+Small business use-case
+
+🔐 Security
+
+Fully offline
+
+Only local DB data stored
+
+No passwords or online data sharing
+
+👨‍💻 Developed By
+
+Dev
+📚 Semester 3 — Java + DBMS Project
+
+If this project helped you or you found it interesting —
+⭐ please star the repository! ⭐
+
+<p align="center">💙 Thank you for checking out this project!</p> ```
