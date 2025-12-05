@@ -45,10 +45,47 @@
 ### ⚙️ Setup
 
 1️⃣ Clone this repository  
-
+```bash
 git clone https://github.com/YOUR-USERNAME/Store-Billing-System.git
+2️⃣ Open the project in IntelliJ IDEA
+
+3️⃣ Add MySQL JDBC JAR
+
 File → Project Structure → Modules → Dependencies → + Add JAR
+
+
+4️⃣ Open XAMPP → Click: Start MySQL
+(No Apache needed)
+
+5️⃣ Run the app
+
 Open src → Main.java → Run
+
+
+💡 Database & tables will be automatically created by the program on launch
+→ No phpMyAdmin setup required!
+
+🎮 Program UI
+==== Store Billing System ====
+1. Add Item
+2. View Items
+3. Add Customer
+4. Add Item to Cart
+5. Generate Bill
+6. Exit
+Enter your choice:
+
+
+Example Bill 👇
+
+-------- FINAL BILL --------
+Customer : Arjun
+Rice 5kg (₹200 × 1) = ₹200
+Sugar 1kg (₹40 × 2) = ₹80
+Total Amount: ₹280
+----------------------------
+Thank you for shopping!
+
 📍 Project Purpose
 
 Designed as a Semester DBMS + Java Project focusing on:
