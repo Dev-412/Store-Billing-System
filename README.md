@@ -116,4 +116,3 @@ If this project helped you or you found it interesting —
 ⭐ please star the repository! ⭐
 
 <p align="center">💙 Thank you for checking out this project!</p>
-```bash
