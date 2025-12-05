@@ -45,7 +45,7 @@
 ### ⚙️ Setup
 
 1️⃣ Clone this repository  
-```bash
+
 git clone https://github.com/YOUR-USERNAME/Store-Billing-System.git
 2️⃣ Open the project in IntelliJ IDEA
 
@@ -115,3 +115,4 @@ If this project helped you or you found it interesting —
 ⭐ please star the repository! ⭐
 
 <p align="center">💙 Thank you for checking out this project!</p> ```
+```bash
