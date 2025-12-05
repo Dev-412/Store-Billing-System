@@ -66,30 +66,9 @@ Open src → Main.java → Run
 💡 Database & tables will be automatically created by the program on launch
 → No phpMyAdmin setup required!
 
-🎮 Program UI
-==== Store Billing System ====
-1. Add Item
-2. View Items
-3. Add Customer
-4. Add Item to Cart
-5. Generate Bill
-6. Exit
-Enter your choice:
-
-
-Example Bill 👇
-
--------- FINAL BILL --------
-Customer : Arjun
-Rice 5kg (₹200 × 1) = ₹200
-Sugar 1kg (₹40 × 2) = ₹80
-Total Amount: ₹280
-----------------------------
-Thank you for shopping!
-
 📍 Project Purpose
 
-Designed as a Semester DBMS + Java Project focusing on:
+Designed as a Semester DBMS + DS + Java Project focusing on:
 
 JDBC connection handling
 
