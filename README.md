@@ -1,53 +1,108 @@
-# 🧾 Store Billing System (Java + XAMPP MySQL + JDBC)
+🧾 Store Billing System 🛒
 
-A Java console-based Store Billing System that uses **MySQL** for storing items, customers, and billing data.  
-✔ The program automatically creates the **database and tables** on first run — you only need to start MySQL from XAMPP!
+A simple and efficient command-line billing software for store owners.
+Manage items, customers, and generate bills — all from a clean console UI.
+Runs fully offline with MySQL database powered through XAMPP.
 
----
+✨ Key Features
 
-## 🚀 Features
+Add & Manage Items
+Enter price, stock quantity, and store inside database.
 
-- Auto create database + tables (no manual SQL setup)
-- Add/Delete/Update **Items**
-- Add and maintain **Customer** details
-- Add items to **Cart**
-- Remove items from cart
-- Automatic Bill calculation
-- View final Bill in console
-- Data stored permanently in MySQL
+Customer Records
+Store and fetch customer details automatically.
 
----
+Shopping Cart System
+Add & remove multiple items before billing.
 
-## 🛠 Technologies Used
+Auto Database Setup
+First run automatically creates database & tables — no manual SQL needed!
 
-| Component | Details |
-|----------|---------|
-| Programming Language | Java |
-| Database | MySQL (XAMPP) |
-| Connectivity | JDBC (MySQL Connector/J) |
-| IDE (Recommended) | IntelliJ IDEA |
+Accurate Bill Calculation
+Auto-totals price and prints final bill in console.
 
----
+Smooth Menu UI
+Beginner-friendly command selection.
 
-## 📂 Code Structure
+🛠 Technologies Used
+Tech	Purpose
+Java	Main application
+MySQL via XAMPP	Data storage
+JDBC	DB connection driver
+IntelliJ IDEA	Recommended IDE
+OOP + Service Layer	Code structure
+🚀 How to Get Started
 
-src/
-├─ Main.java → Program entry + Menu + User Input
-├─ DBConnection.java → MySQL connection + Auto DB/Tables creation
-├─ Item.java → Item Model (id, name, qty, price)
-├─ ItemService.java → CRUD operations for Items
-├─ Customer_Service.java → Manage Customer information
-├─ CartService.java → Add/Remove/View cart items
-├─ BillingService.java → Total calculation + bill printing
-└─ BaseService.java → Shared utilities
----
+You can run this project directly from source.
+Follow these steps 👇
 
-## ⚙️ Setup & Installation
+📌 Prerequisites
 
-### 1️⃣ Install Requirements
-- Java JDK 8+ or 17+
-- XAMPP (MySQL server)
+Install these on your PC:
 
-### 2️⃣ Start MySQL Server
-Open XAMPP → Click:
+✔ Java JDK (8 or above recommended)
+✔ XAMPP (for MySQL server)
+✔ MySQL Connector/J (JDBC driver JAR)
+✔ IntelliJ IDEA (recommended)
 
+⚙️ Setup
+
+1️⃣ Clone the repository
+
+git clone https://github.com/YOUR-USERNAME/Store-Billing-System.git
+
+
+2️⃣ Open the project in IntelliJ IDEA
+
+3️⃣ Add MySQL Connector/J library
+
+File → Project Structure → Modules → Dependencies → + Add JAR
+
+
+4️⃣ Start MySQL in XAMPP
+
+Open XAMPP → Start MySQL
+(Do NOT start Apache)
+
+
+5️⃣ Run the application
+
+src → Main.java → Right-click → Run
+
+
+💡 Database and tables will auto-create if missing — no phpMyAdmin required!
+
+🎮 In-Game Example
+==== Store Billing System ====
+1. Add Item
+2. View Items
+3. Add Customer
+4. Add Item To Cart
+5. Generate Bill
+6. Exit
+Enter choice:
+
+
+Example Bill:
+
+----- FINAL BILL -----
+Customer: Rahul
+Sugar (₹40 × 2) = ₹80
+Rice 5kg (₹200 × 1) = ₹200
+Total = ₹280
+---------------------
+
+🔐 Security & Data
+
+All data stored securely in MySQL
+
+No external network required
+
+Fully offline local billing app
+
+🧑‍💻 Developer
+
+Dev
+Java & DBMS Project — Semester Submission ✔
+
+If you like the project, please ⭐ star the repo!
