@@ -38,7 +38,7 @@
 ### ✔ Prerequisites
 - Install **Java JDK**  
 - Install **XAMPP** → Start only **MySQL**
-- Download **MySQL Connector/J** JAR
+- Download **MySQL Connector** JAR
 
 ---
 
@@ -55,8 +55,7 @@ git clone https://github.com/YOUR-USERNAME/Store-Billing-System.git
 File → Project Structure → Modules → Dependencies → + Add JAR
 
 
-4️⃣ Open XAMPP → Click: Start MySQL
-(No Apache needed)
+4️⃣ Open XAMPP → Click: Start MySQL And Apache
 
 5️⃣ Run the app
 
