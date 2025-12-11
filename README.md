@@ -37,7 +37,7 @@
 
 ### ✔ Prerequisites
 - Install **Java JDK**  
-- Install **XAMPP** → Start only **MySQL**
+- Install **XAMPP** → Start **MySQL** & **Apache**
 - Download **MySQL Connector** JAR
 
 ---
@@ -88,7 +88,7 @@ No passwords or online data sharing
 👨‍💻 Developed By
 
 Dev
-📚 Semester 3 — Java + DBMS Project
+📚 Semester 2 — Java + DS + DBMS Project
 
 If this project helped you or you found it interesting —
 ⭐ please star the repository! ⭐
