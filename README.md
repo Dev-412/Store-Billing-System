@@ -69,8 +69,6 @@ Open src → Main.java → Run
 
 ## 📍 Project Purpose
 
---
-
 Designed as a Semester DBMS + DS + Java Project focusing on:
 
 JDBC connection handling
