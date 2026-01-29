@@ -65,7 +65,11 @@ Open src → Main.java → Run
 💡 Database & tables will be automatically created by the program on launch
 → No phpMyAdmin setup required!
 
-📍 Project Purpose
+---
+
+## 📍 Project Purpose
+
+--
 
 Designed as a Semester DBMS + DS + Java Project focusing on:
 
